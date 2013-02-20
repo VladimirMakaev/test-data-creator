@@ -1,0 +1,1 @@
+A library that simplifies Entity Framework data layer integration tests
