@@ -1,6 +1,6 @@
 ﻿namespace TestDataCreator.Sample.Model
 {
-    public class Person
+    public class Person : Entity
     {
         public int Id
         {

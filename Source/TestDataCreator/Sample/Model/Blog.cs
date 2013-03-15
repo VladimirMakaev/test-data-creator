@@ -2,7 +2,7 @@
 
 namespace TestDataCreator.Sample.Model
 {
-    public class Blog
+    public class Blog : Entity
     {
         public int Id
         {

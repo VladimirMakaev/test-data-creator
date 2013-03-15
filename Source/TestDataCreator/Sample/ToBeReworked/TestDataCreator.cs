@@ -6,7 +6,7 @@ using System.Diagnostics.Contracts;
 using System.Reflection;
 using TestDataCreator.Sample.Model;
 
-namespace HSS.HousingHub.Data.Services.Tests.TestData
+namespace TestDataCreator.Sample.ToBeReworked
 {
     public class TestDataCreator
     {
@@ -99,6 +99,11 @@ namespace HSS.HousingHub.Data.Services.Tests.TestData
                             Tags = new Collection<Tag> {CreateTag()},
                             Title = "The Very Best Post"
                         });
+        }
+
+        public Blog CreateBlog()
+        {
+            return GetOrCreate(()=> new Blog(){Title = "The Very Best Blog"});
         }
     }
 }
