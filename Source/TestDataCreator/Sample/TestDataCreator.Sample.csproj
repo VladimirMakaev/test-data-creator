@@ -36,6 +36,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -58,9 +59,13 @@
     <Compile Include="Model\Tag.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Model\Entity.cs" />
+    <Compile Include="RepositoryIntegrationTest.cs" />
+    <Compile Include="RepositoryIntegrationTestBase.cs" />
     <Compile Include="Repostories\BlogRepository.cs" />
     <Compile Include="Repostories\Base\IRepository.cs" />
     <Compile Include="Repostories\PersonRepository.cs" />
+    <Compile Include="TestableContext.cs" />
+    <Compile Include="Tests\BlogRepositoryTest.cs" />
     <Compile Include="ToBeReworked\TestDataCreator.cs" />
   </ItemGroup>
   <ItemGroup>

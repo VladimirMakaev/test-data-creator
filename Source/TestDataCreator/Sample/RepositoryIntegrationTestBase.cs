@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Data.Entity;
 using System.Data.Entity.Validation;
 using System.Linq;
@@ -6,7 +6,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TestDataCreator.Sample.Model;
 using TestDataCreator.Sample.Repostories;
 
-namespace TestDataCreator.Tests.Repostories
+namespace TestDataCreator.Sample
 {
     [TestClass]
     public abstract class RepositoryIntegrationTestBase<T, TDataCreator>

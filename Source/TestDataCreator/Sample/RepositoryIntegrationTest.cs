@@ -1,8 +1,8 @@
-﻿using System.Data.Entity;
+using System.Data.Entity;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TestDataCreator.Sample.Model;
 
-namespace TestDataCreator.Tests.Repostories
+namespace TestDataCreator.Sample
 {
     [TestClass]
     public abstract class RepositoryIntegrationTest<T> :

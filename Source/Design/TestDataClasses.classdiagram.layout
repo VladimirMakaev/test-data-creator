@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="TestDataClasses">
+  <logicalClassDesignerModelMoniker Id="da001e2b-5060-4536-bcb8-9d21da67daa3" />
+  <nestedChildShapes>
+    <classShape Id="99c57aa5-8d1d-4087-a868-1a07db4d7bb0" absoluteBounds="3.625, 0.5, 2.5, 1.3479918644825619" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="ab5e3fb8-7ffc-4916-9a89-cd9c5240dad6" LastKnownName="TestData" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="cf97294e-a739-4e34-8172-7e62fe1b5c8f" absoluteBounds="3.64, 1.0153356393178306, 2.4699999999999998, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="4eccb044-31ba-4479-8fb9-5b729299fd10" absoluteBounds="3.64, 1.2265075068672497, 2.4699999999999998, 0.521484357615312" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e616cbf3-67da-4744-adad-9bd805dfc326" absoluteBounds="1.25, 2.5, 1.5, 0.90234373509883881" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="55fcd503-0f5e-453a-b195-0ac6b4fc7389" LastKnownName="IdentitySet" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="c8e3a8c9-e88e-4803-b881-209303cdb2e7" isExpanded="false" absoluteBounds="1.2650000000000001, 2.89, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="80ccc91c-56ee-4389-a5db-e77e5d91759f" isExpanded="false" absoluteBounds="1.2650000000000001, 3.1011718675494193, 1.4700000000000002, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <enumerationShape Id="a6dc09c7-4a44-4f4a-9dc8-bcc5ab5f1d5c" absoluteBounds="4.75, 3.5, 1.5, 1.1716406026482584" hideQualifiedName="false" increaseHeight="0" customColor="161, 150, 103">
+      <enumerationMoniker Id="77356be9-f2d8-4cf4-bc44-a2710bd0e0c5" LastKnownName="RelationshipType" />
+      <nestedChildShapes>
+        <LiteralElementListCompartment Id="05731f71-8ead-4a07-9844-3b7d79cfcf1d" absoluteBounds="4.765, 3.89, 1.4700000000000002, 0.68164060264825821" name="LiteralsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </enumerationShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

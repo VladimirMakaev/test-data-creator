@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TestDataCreator.Sample.Model;
 using TestDataCreator.Sample.Repostories;
 
-namespace TestDataCreator.Tests.Repostories.Tests
+namespace TestDataCreator.Sample.Tests
 {
     [TestClass]
     class BlogRepositoryTest : RepositoryIntegrationTest<Blog>

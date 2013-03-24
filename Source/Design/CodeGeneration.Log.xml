@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 11.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2013-03-24T22:58:23" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2013-03-24T22:58:23" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2013-03-24T22:58:23" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2013-03-24T22:58:23" Importance="Diagnostic" Text="ProjectPath = ..\DesignLib\DesignLib.csproj" />
+  <Message Timestamp="2013-03-24T22:58:23" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2013-03-24T22:58:23" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2013-03-24T22:58:23" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2013-03-24T22:58:23" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2013-03-24T22:58:23" Importance="Medium" Text="Design's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'Design::TestData' -  (Class) " />
+  <Message Timestamp="2013-03-24T22:58:27" Importance="Medium" Text="Project Added: C:\Work\GitHubRepos\test-data-creator\Source\DesignLib\DesignLib.csproj" />
+  <Message Timestamp="2013-03-24T22:58:27" Importance="Medium" Text="'Design::TestData' -  (Class) : success (file created) - C:\Work\GitHubRepos\test-data-creator\Source\DesignLib\GeneratedCode\TestData.cs" />
+  <Message Timestamp="2013-03-24T22:58:27" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2013-03-24T22:58:27" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2013-03-24T22:58:27" Importance="Diagnostic" Text="ProjectPath = ..\DesignLib\DesignLib.csproj" />
+  <Message Timestamp="2013-03-24T22:58:27" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2013-03-24T22:58:27" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2013-03-24T22:58:27" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2013-03-24T22:58:27" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2013-03-24T22:58:27" Importance="Medium" Text="Design's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'Design::TestData' -  (Class) " />
+  <Message Timestamp="2013-03-24T22:58:27" Importance="Diagnostic" Text="'Design::TestData' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2013-03-24T22:58:28" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+</Log>

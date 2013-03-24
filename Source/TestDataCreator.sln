@@ -21,6 +21,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".common", ".common", "{E7BA
 		.common\CommonAssemblyInfo.cs = .common\CommonAssemblyInfo.cs
 	EndProjectSection
 EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Design", "Design\Design.modelproj", "{0906E6F4-DF59-4BA3-8E6C-A20D9777E79E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Architecture", "Architecture", "{A838CC94-0593-42BD-9BA2-614F6DD9ADD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,11 +43,16 @@ Global
 		{37D593AB-6389-44A4-BE28-10E43C9FA840}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37D593AB-6389-44A4-BE28-10E43C9FA840}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37D593AB-6389-44A4-BE28-10E43C9FA840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0906E6F4-DF59-4BA3-8E6C-A20D9777E79E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0906E6F4-DF59-4BA3-8E6C-A20D9777E79E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0906E6F4-DF59-4BA3-8E6C-A20D9777E79E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0906E6F4-DF59-4BA3-8E6C-A20D9777E79E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{37D593AB-6389-44A4-BE28-10E43C9FA840} = {892DAD8E-95C8-414D-B098-33F88C971F53}
+		{0906E6F4-DF59-4BA3-8E6C-A20D9777E79E} = {A838CC94-0593-42BD-9BA2-614F6DD9ADD7}
 	EndGlobalSection
 EndGlobal

@@ -49,7 +49,14 @@
     <Compile Include="..\.common\CommonAssemblyInfo.cs">
       <Link>Properties\CommonAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="Identities\IdentityMap.cs" />
+    <Compile Include="Nodes\ObjectNodeKey.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Relations\IRelationshipProvider.cs" />
+    <Compile Include="Relations\IRelationshipResolver.cs" />
+    <Compile Include="Relations\Relation.cs" />
+    <Compile Include="Relations\RelationType.cs" />
+    <Compile Include="TestData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
